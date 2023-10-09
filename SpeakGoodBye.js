@@ -1,0 +1,11 @@
+
+(function () {
+  var byeSpeaker = {};
+
+  byeSpeaker.speak = function (name) { 
+    var speakWord = "Good Bye";
+    console.log(speakWord + " " + name);
+  }
+
+  window.byeSpeaker = byeSpeaker; // Expose byeSpeaker to the global scope
+})();
